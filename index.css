@@ -1,0 +1,300 @@
+ body{
+     margin: 0; 
+     height: 100%;
+     display: block;
+     background-color: darkgray;
+     display: flex;
+     flex-direction: column;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/e316821f-7177-48f4-b748-e44a8b0840df/cbd7ed1b-8d85-458a-8152-da44b8aeb92d/CA-en-20220406-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 1000px;
+    opacity: 0.75;
+    box-shadow: 15px 15px 15px 15px black inset;
+    
+    
+}
+.header-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header{
+    color: red;
+    align-self: flex-start ;
+    margin-left: 35px;
+    font-size: 2cm;
+    font-family: fantasy;
+    font-style: oblique;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.English{
+    height: 50px;
+    margin-top: 30px;
+    opacity: 30%;
+    margin-right: 15px;
+    background-color: black;
+    border: 2px solid white;
+    z-index: 1;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign{
+    background-color: red;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 30px;
+    color: white;
+    z-index: 1;
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign:hover{
+    background-color: darkred;
+}
+.first-info{
+    margin-top: 30px;
+    align-self: center;
+    color: white;
+}
+h1{
+    align-self: center;
+    max-width: 50%;
+    font-size: 70px;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p{
+    max-width: 35%;
+    margin-left: 560px;
+    margin-right: auto;
+    align-self: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+h3{
+    max-width: 60%;
+    margin-left: 440px;
+    margin-right: auto;
+    align-self: center;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+
+}
+
+.text{
+    margin-left: 440px;
+    padding: 12px;
+    width: 47%;
+    margin-right: 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.get{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    width: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.second{
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info{
+    margin-left: 30px;
+
+}
+h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.third{
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fourth{
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.fifth{
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.sixth{
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.wh{
+    margin-top: 10px;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-right: 400px;
+    background-color: #303030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.h3{
+    max-width: 60%;
+    margin-left: 440px;
+    margin-right: auto;
+    align-self: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    padding-right: 100px;
+
+}
+.input{
+    width: 75%;
+    margin-bottom: 8px;
+}
+.text1{
+    margin-left: 200px;
+    width: 45%;
+    padding: 12px;
+     border-radius: 5px;
+    border: none;
+
+}
+
+.get1{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    width: 12%;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+footer{
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 270px;
+}
+.Q{
+    color: gray;
+    font-size: 1.2rem;
+    align-self: flex-start;
+    margin-left: 350px;
+    font-weight: bold;
+}
+
+
+
+.foo{
+    color: gray;
+    margin-top: 7px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.foo1{
+    color: gray;
+    margin-top: 7px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-left: 100px;
+}
+
+.Net{
+    font-size: 1.5rem;
+    color: gray;
+    font-weight: bold;
+    margin-left: 310px;
+
+}
+
+.English1{
+    height: 30px;
+    width: 15%;
+    margin-top: 10px;
+    opacity: 30%;
+    background-color: black;
+    border: 2px solid white;
+    z-index: 1;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 310px;
+}
